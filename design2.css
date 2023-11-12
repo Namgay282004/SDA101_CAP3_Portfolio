@@ -1,0 +1,55 @@
+Body{
+    background-color: rgb(158,158,158);
+}
+.projects {
+    position: relative;
+    top: 20px; 
+    text-align: center; 
+    letter-spacing: 2px;   
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button-container button {
+    width: 350px;
+    height: 60px;
+    margin-top:25px;
+    border: none;
+    border-radius: 50px;
+    font-size: large;
+}
+.button-container button:hover{
+    background-color: rgb(223, 223, 171);
+    transform: scale(1.1);
+    transition-delay: 20ms;
+}
+.small-image{
+    width: 350px;
+    height: 250px;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+@media (max-width: 390px){
+    .button-container button {
+        width: 210px;
+        height: 40px;
+        font-size:small;
+    }
+    .projects {
+        position: relative;
+        top: 2%; 
+        text-align: center;
+        font-size: larger;   
+    }
+    .small-image{
+        width: 250px;
+        height: 150px;
+    }
+}
+
+

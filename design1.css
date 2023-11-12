@@ -1,0 +1,329 @@
+
+.Portfolio{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 8%;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.details{
+    width: 800px;
+    height: 100px;
+    background-color: rgba(102, 101, 101, 0.479);
+    border: none;
+    border-radius: 20px;
+    font-size: larger;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    text-align: center;
+
+}
+.info{
+    width: 800px;
+    height: 150px;
+    background-color: rgba(102, 101, 101, 0.479);
+    border: none;
+    border-radius: 20px;
+    font-size: larger;
+    align-items: center;
+    letter-spacing: 1px;
+    display: block;
+}
+.education{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 8%;
+    letter-spacing: 2px;
+}
+.edu{
+    width:800px;
+    height: 350px;font-size: larger;
+    letter-spacing: 1px;
+    background-color: rgba(102, 101, 101, 0.479);
+    border-radius: 20px;
+    border: none;
+    margin-left: 50px;
+    position: relative;
+    text-align: left;   
+}
+button.details, button.info, button.edu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edu .paycha .studies:first-child {
+    position: absolute;
+    top: 13%;
+    left: 10%;
+}
+.edu .paycha .ghss {
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    margin-bottom: 20%;
+}
+.edu .ghss i,
+.edu .ghss span {
+    display: inline;
+    margin-right: 7px; 
+}
+
+.edu .paychata .studies {
+    position: absolute;
+    top: 46%; 
+    left: 10%; 
+}
+
+.edu .paychata .ghss {
+    position: absolute;
+    top: 50%; 
+    left: 20%; 
+    margin-top: 20px;
+}
+
+.cst{
+    padding-top: 20px;
+}
+.interest{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 8%;
+    letter-spacing: 2px;
+}
+.chess{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.chess:hover{
+    background-color: rgb(124, 226, 141);
+    transform: rotate(15deg) scale(1.2);
+}
+.hiking{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5%;
+}
+.hiking:hover{
+    background-color: rgb(64, 231, 13);
+    transform: rotate(15deg) scale(1.2);
+}
+.music{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5%;
+}
+.music:hover{
+    background-color: rgb(0, 255, 255);
+    transform: rotate(15deg) scale(1.2);
+}
+.sleep{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5%;
+}
+.sleep:hover{
+    background-color: rgb(158, 87, 206);
+    transform: rotate(15deg) scale(1.2);
+}
+.jog{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.jog:hover{
+    background-color: rgb(40, 117, 233);
+    transform: rotate(15deg) scale(1.2);
+}
+.basketball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5%;
+}
+.basketball:hover{
+    background-color: rgb(236, 110, 26);
+    transform: rotate(15deg) scale(1.2);
+}
+.swim{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5%;
+}
+.swim:hover{
+    background-color: aqua;
+    transform: rotate(15deg) scale(1.2);
+}
+.game{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5%;
+}
+.game:hover{
+    background-color: rgb(224, 52, 187);
+    transform: rotate(15deg) scale(1.2);
+}
+.book{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.book:hover{
+    background-color: rgb(238, 215, 83);
+    transform:rotate(15deg) scale(1.2);
+}
+
+@media only screen and (max-width: 390px){
+    .Portfolio{
+        font-size: large;
+    }
+    .education{
+        font-size: large;
+    }
+    .details{
+        width: 350px;
+        height: 70px;
+        border: none;
+        border-radius: 20px;
+        font-size: xx-small;
+        align-items: center;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .info{
+        width: 350px;
+        height: 100px;
+        border: none;
+        border-radius: 20px;
+        font-size: xx-small;
+        align-items: center;
+        letter-spacing: 1px;
+        display: block;
+        margin-left: 10px;
+    }
+    .edu{
+        width:350px;
+        height: 200px;
+        font-size: xx-small;
+        letter-spacing: 1px;
+        border-radius: 20px;
+        border: none;
+        margin-left: 10px;
+        position: relative;
+        text-align: left;   
+    }
+    
+    .edu .paycha .studies:first-child {
+        position: absolute;
+        top: 13%;
+        left: 10%;
+    }
+    .edu .paycha .ghss {
+        position: absolute;
+        top: 24%;
+        left: 20%;
+        margin-bottom: 15%;
+    }
+    
+    .edu .paychata .studies {
+        position: absolute;
+        top: 50%; 
+        left: 10%; 
+    }
+    
+    .edu .paychata .ghss {
+        position: absolute;
+        top: 50%; 
+        left: 20%; 
+        margin-top: 15x;
+    }
+    
+    .cst{
+        padding-top: 15px;
+    }
+    .interest{
+        font-size: large;
+    }
+    .chess{
+        width: 80px;
+        height: 80px;
+        margin-left: 18%;
+        margin-top: 40px;
+        
+    }
+    .chess i{
+        font-size: 20px;
+    }
+    .hiking{
+        width: 80px;
+        height: 80px;
+        margin-left: 20%;
+    }
+    .music{
+        width: 80px;
+        height: 80px;
+        margin-left: 18%;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .sleep{
+        width: 80px;
+        height: 80px;
+        margin-left: 20%;
+    }
+    .jog{
+        width: 80px;
+        height: 80px;
+        margin-left: 18%;
+        margin-top: 20px;
+    }
+    .basketball{
+        width: 80px;
+        height: 80px;
+        margin-left: 20%;
+    }
+    .swim{
+        width: 80px;
+        height: 80px;
+        margin-left: 18%;
+        margin-top: 20px;
+    }
+    .game{
+        width: 80px;
+        height: 80px;
+        margin-left: 20%;
+    }
+    .book{
+        width: 80px;
+        height: 80px;
+        margin-left: 40%;
+    }
+}
